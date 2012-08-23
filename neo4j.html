@@ -43,138 +43,180 @@
 						<h1>CINJUG Aug 2012</h1>
 						<h3>Graph Database, Neo4j & Spring Data-Neo4j</h3>
 						<p>Sudhin Varghese - 
-						<a href="https://twitter.com/intent/tweet?screen_name=sudhcha" class="twitter-mention-button">Tweet to @sudhcha</a>
+							<a href="https://twitter.com/intent/tweet?screen_name=sudhcha" class="twitter-mention-button">Tweet to @sudhcha</a>
 							<script>!function(d,s,id){var
 								js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
-								<p>Sponsored by Neo Technolgies - http://www.neotechnology.com/</p>
 								<p>References:
 									<ul><li>Neo4j community</li>
 										<li>Neo4j in Action - MEAP book</li>
 										<li>Neo4j Koans</li>
 										<li>Spring Data Community</li>
-								</p>
-							</section>
-							<section>
-								<h3>Graph Theory</h3>
-								<ul>
-									<li>Graphs represent specific data structures</li>
-									<ul>
-										<li>Org hierarchy</li>
-										<li>Social network</li>
-										<li> Processing flow</li>
-									</ul></ul>
+									</p>
+								</section>
+								<section>
+									<h2>Today's sponsors</h2>
+									<h3>GraphConnect - Helping you Innovate, Share and Connect with free food and beer.</h3>
+									<p>More about the sponsor: </p>
+									<p>GraphConnect 2012 is the first conference to focus on graph databases and the applications making sense of connected data. Come to GraphConnect, where hackers and practitioners gather to compare notes about pushing data in new, unthinkable directions, and showcase next gen applications. Innovate, share, connect.</p>
+								</section>
+								<section>
+									<h1>GraphConnect</h1>
+									<p>Website: http://graphconnect.com</p>
+									<p>Where: Hyatt Regency Embarcadero, 5 Embarcadero Center, SFO</p>
+									<p>When: Nov 5-6, 2012</p>
+								</section>
+								<section>
+									<h3>A Graph contains Nodes and Relationships</h3>
+									<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-gve.png">
 								</section>
 								<section>
 									<h3>Graph Theory</h3>
 									<ul>
-										<li> Software Design Phase</li>
+										<li>Graphs represent specific data structures</li>
 										<ul>
-											<li>Structures</li>
-											<li>Flows</li>
-											<li> Algorithms</li>
-										</ul></ul></section>
-										<section>
-											<h3>Graph Theory</h3>
+											<li>Org hierarchy</li>
+											<li>Social network</li>
+											<li> Processing flow</li>
+										</ul></ul>
+									</section>
+									<section>
+										<h3>Graph Theory</h3>
+										<ul>
+											<li> Software Design Phase</li>
 											<ul>
-												<li>Object Oriented Programming</li>
-												<ul>
-													<li>Inheritance</li>
-													<li>Composition and Object
-														Members</li>
-													</ul>
-												</ul>
-											</section>
+												<li>Structures</li>
+												<li>Flows</li>
+												<li> Algorithms</li>
+											</ul></ul></section>
 											<section>
-												<h3>Data Persistence</h3>
+												<h3>Graph Theory</h3>
 												<ul>
-													<li>Graphs neglected in data
-														persistence</li>
-														<ul>
-															<li>Relational tables and columns</li>
-															<li>Normalization and renormalization of structure</li>
+													<li>Object Oriented Programming</li>
+													<ul>
+														<li>Inheritance</li>
+														<li>Composition and Object
+															Members</li>
 														</ul>
+													</ul>
+												</section>
+												<section>
+													<h3>Data Persistence</h3>
+													<ul>
+														<li>Graphs neglected in data
+															persistence</li>
+															<ul>
+																<li>Relational tables and columns</li>
+																<li>Normalization and renormalization of structure</li>
+															</ul>
 
-													</section>
-													<section>
-														<h1>Why graphDb and Neo4j?</h1>
-														<p>Case study</p>
-													</section>
-													<section>
-														<h2>Inefficiency of SQL joins</h2>
-														<ul>
-															<li>Test results for 1000 users</li>
-															<ul><li>Depth 2 - 0.028s</li>
-																<li>Depth 3 - 0.213s</li>
-																<li>Depth 5 - 92613.15s</li></ul>
-																<li>With 50,000 records in table, resulting set will have 50,000<sup>5</sup> rows (1024e21) Cartesian products</li></ul>
-															</section>
-															<section>
-																<h2>NoSQL Space</h2>
-																<ul><li>Key-Value Stores</li>
-																	<ul><li>Best-Known Technologies: </li><ul><li>Redis</li><li> Memcached</li></ul>
-																	<li>Typical Use Cases</li>
-																	<ul><li>Caches</li>
-																		<li>Simple domain with fast read access</li>
-																		<li>Massively concurrent systems</li></ul>
-																	</ul>
+														</section>
+														<section>
+															<h1>Why graphDb and Neo4j?</h1>
+															<p>Case study</p>
+														</section>
+														<section>
+															<h2>Inefficiency of SQL joins</h2>
+															<ul>
+																<li>Test results for 1000 users</li>
+																<ul><li>Depth 2 - 0.028s</li>
+																	<li>Depth 3 - 0.213s</li>
+																	<li>Depth 5 - 92613.15s</li></ul>
+																	<li>With 50,000 records in table, resulting set will have 50,000<sup>5</sup> rows (1024e21) Cartesian products</li></ul>
 																</section>
 																<section>
 																	<h2>NoSQL Space</h2>
-																	<ul><li>Column-Family Stores</li>
-																		<ul><li>Best-Known Technologies: </li><ul><li>Cassandra</li><li> Google Big Table</li></ul>
+																	<ul><li>Key-Value Stores</li>
+																		<ul><li>Best-Known Technologies: </li><ul><li>Redis</li><li> Memcached</li></ul>
 																		<li>Typical Use Cases</li>
-																		<ul><li>Write on a big scale</li>
-																			<li>Co-located data access (for reading and writing)</li></ul>
+																		<ul><li>Caches</li>
+																			<li>Simple domain with fast read access</li>
+																			<li>Massively concurrent systems</li></ul>
 																		</ul>
 																	</section>
 																	<section>
 																		<h2>NoSQL Space</h2>
-																		<ul><li>Document Oriented Databases</li>
-																			<ul><li>Best-Known Technologies: </li><ul><li>MongoDB</li><li> Couchbase</li></ul>
+																		<ul><li>Column-Family Stores</li>
+																			<ul><li>Best-Known Technologies: </li><ul><li>Cassandra</li><li> Google Big Table</li></ul>
 																			<li>Typical Use Cases</li>
-																			<ul><li>When domain model is document by nature</li>
-																				<li>To simplify development using natural document data structures</li>
-																				<li>Highly scalable systems (although on the lower level then the key-value and column-family stores)</li></ul>
+																			<ul><li>Write on a big scale</li>
+																				<li>Co-located data access (for reading and writing)</li></ul>
 																			</ul>
 																		</section>
 																		<section>
 																			<h2>NoSQL Space</h2>
-																			<ul><li>Graph databases</li>
-																				<ul><li>Best-Known Technologies: </li><ul><li>Neo4j</li><li> AllegroGraph</li><li> OrientDB</li></ul>
+																			<ul><li>Document Oriented Databases</li>
+																				<ul><li>Best-Known Technologies: </li><ul><li>MongoDB</li><li> Couchbase</li></ul>
 																				<li>Typical Use Cases</li>
-																				<ul><li>With inteconnected data</li>
-																					<li>Domain can be represented with nodes and relationships naturally</li>
-																					<li>Social Networks</li>
-																					<li>Recommendation engines</li>
-																					<li>Access Control Lists</li></ul></ul>
-																				</section>
-																				<section>
-																					<h2>Neo4j Data Storage</h2>
-																					<ul>
-																						<li>Nodes => vertices</li>
-																						<li>Relationships => edges</li>
-																						<li>Both nodes and relationships have properties that are indexed.</li></ul>
+																				<ul><li>When domain model is document by nature</li>
+																					<li>To simplify development using natural document data structures</li>
+																					<li>Highly scalable systems (although on the lower level then the key-value and column-family stores)</li></ul>
+																				</ul>
+																			</section>
+																			<section>
+																				<h2>NoSQL Space</h2>
+																				<ul><li>Graph databases</li>
+																					<ul><li>Best-Known Technologies: </li><ul><li>Neo4j</li><li> AllegroGraph</li><li> OrientDB</li></ul>
+																					<li>Typical Use Cases</li>
+																					<ul><li>With inteconnected data</li>
+																						<li>Domain can be represented with nodes and relationships naturally</li>
+																						<li>Social Networks</li>
+																						<li>Recommendation engines</li>
+																						<li>Access Control Lists</li></ul></ul>
 																					</section>
+																					<section>
+																						<h2>Neo4j Data Storage</h2>
+																						<ul>
+																							<li>Nodes => vertices</li>
+																							<li>Relationships => edges</li>
+																							<li>Both nodes and relationships have properties that are indexed.</li></ul>
+																						</section>
+																						<section>
+																							<h3>Properties in Nodes and Relationships</h3>
+																							<p>Property value types</p>
+																							<ul>
+																								<li>boolean</li>
+																								<li>byte</li>
+																								<li>short</li>
+																								<li>int</li>
+																								<li>long</li>
+																								<li>float</li>
+																								<li>double</li>
+																								<li>char</li>
+																								<li>String</li>
+																							</ul>
+																						</section>
+																						<section>
+																							<h3>Query a Graph with a Traversal</h3>
+																							<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-traverse.png">
+																						</section>
+																						<section>
+																							<h3>Indexes look-up Nodes or Relationships</h3>
+																							<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-index.png">
+																						</section>
+																						<section>
+																							<h3>Neo4j is a Graph Database</h3>
+																							<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-graph.png">
+																						</section>
+																					</div>
 																				</div>
+
+																				<!-- The navigational controls UI -->
+																				<aside class="controls">
+																					<a class="left" href="#">&#x25C4;</a>
+																					<a class="right" href="#">&#x25BA;</a>
+																					<a class="up" href="#">&#x25B2;</a>
+																					<a class="down" href="#">&#x25BC;</a>
+																				</aside>
+
+																				<!-- Presentation progress bar -->
+																				<div class="progress"><span></span></div>
+
 																			</div>
 
-																			<!-- The navigational controls UI -->
-																			<aside class="controls">
-																				<a class="left" href="#">&#x25C4;</a>
-																				<a class="right" href="#">&#x25BA;</a>
-																				<a class="up" href="#">&#x25B2;</a>
-																				<a class="down" href="#">&#x25BC;</a>
-																			</aside>
+																			<script src="lib/js/head.min.js"></script>
+																			<script src="js/reveal.min.js"></script>
 
-																			<!-- Presentation progress bar -->
-																			<div class="progress"><span></span></div>
-
-																		</div>
-
-																		<script src="lib/js/head.min.js"></script>
-																		<script src="js/reveal.min.js"></script>
-
-																		<script>
+																			<script>
 
 				// Full list of configuration options available here:
 				// https://github.com/hakimel/reveal.js#configuration
