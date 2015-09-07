@@ -1,10 +1,10 @@
-	<!doctype html>  
+	<!doctype html>
 	<html lang="en">
 
 	<head>
 		<meta charset="utf-8">
 
-		<title>Graph Database, Neo4j and Spring Data Neo4j</title>
+		<title>Graph Database, Neo4j</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -29,20 +29,20 @@
 			<script src="lib/js/html5shiv.js"></script>
 			<![endif]-->
 		</head>
-		
+
 		<body>
-			
+
 			<div class="reveal">
 
 				<!-- Used to fade in a background when a specific slide state is reached -->
 				<div class="state-background"></div>
-				
+
 				<!-- Any section element inside of this container is displayed as a slide -->
 				<div class="slides">
 					<section>
-						<h1>CINJUG Aug 2012</h1>
-						<h3>Graph Database, Neo4j & Spring Data-Neo4j</h3>
-						<p>Sudhin Varghese - 
+						<h3>Graph Database & Neo4j</h3>
+						<h4><img src="https://camo.githubusercontent.com/1f42e9677ddeaec15f90c4893e395771a0cc95d7/687474703a2f2f7777772e6f70656e637265646f2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30362f6e656f346a2d6c6f676f2e706e67"></h4>
+						<p>Sudhin Varghese -
 							<a href="https://twitter.com/intent/tweet?screen_name=sudhcha" class="twitter-mention-button">Tweet to @sudhcha</a>
 							<script>!function(d,s,id){var
 								js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
@@ -52,22 +52,6 @@
 										<li>Neo4j Koans</li>
 										<li>Spring Data Community</li>
 									</p>
-								</section>
-								<section>
-									<h2>Today's sponsors</h2>
-									<h3>GraphConnect - Helping you Innovate, Share and Connect with free food and beer.</h3>
-									<p>More about the sponsor: </p>
-									<p>GraphConnect 2012 is the first conference to focus on graph databases and the applications making sense of connected data. Come to GraphConnect, where hackers and practitioners gather to compare notes about pushing data in new, unthinkable directions, and showcase next gen applications. Innovate, share, connect.</p>
-								</section>
-								<section>
-									<h1>GraphConnect</h1>
-									<p>Website: http://graphconnect.com</p>
-									<p>Where: Hyatt Regency Embarcadero, 5 Embarcadero Center, SFO</p>
-									<p>When: Nov 5-6, 2012</p>
-								</section>
-								<section>
-									<h3>A Graph contains Nodes and Relationships</h3>
-									<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-gve.png">
 								</section>
 								<section>
 									<h3>Graph Theory</h3>
@@ -164,24 +148,16 @@
 																						<li>Access Control Lists</li></ul></ul>
 																					</section>
 																					<section>
+																						<h3>What is a Neo4j?</h3>
+																						<img src="https://www.safaribooksonline.com/library/view/spring-data/9781449331863/httpatomoreillycomsourceoreillyimages1356815.png" width="80%" height="80%">
+																					</section>
+																					<section>
 																						<h2>Neo4j Data Storage</h2>
 																						<ul>
 																							<li>Nodes => vertices</li>
 																							<li>Relationships => edges</li>
 																							<li>Both nodes and relationships have properties that are indexed.</li>
 																							<li>ACID support </li></ul>
-																						</section>
-																						<section>
-																							<h3>Query a Graph with a Traversal</h3>
-																							<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-traverse.png">
-																						</section>
-																						<section>
-																							<h3>Indexes look-up Nodes or Relationships</h3>
-																							<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-index.png">
-																						</section>
-																						<section>
-																							<h3>Neo4j is a Graph Database</h3>
-																							<img src="http://neo4j.org/wp-content/uploads/2011/06/graphdb-graph.png">
 																						</section>
 																						<section>
 																							<h3>Properties in Nodes and Relationships</h3>
@@ -243,7 +219,7 @@
 					controls: true,
 					progress: true,
 					history: true,
-					
+
 					transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
 
 					// Optional libraries used to extend on reveal.js
@@ -256,6 +232,6 @@
 					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
 					]
 				});
-				
+
 				</script>
 			</body>
